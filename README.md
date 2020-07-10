@@ -6,7 +6,7 @@
 Run the following command in the terminal to clone the directory
 
 
-    git clone https://divyab275.github.io/youTubeDownloader.git
+    git clone https://github.com/divyab275/youTubeDownloader.git
 
 
 ###### **Step2**
@@ -24,6 +24,9 @@ That's it. You are good to go!
 
 ###### **To Download Audio Only**
 
+When you are runnning for the first time, create an *audio* folder in the root directory.  
+This is where all your audio files will be downloaded.  
+
 Run the following command on the terminal
 
     python audio_download <name_file.mp3> <youtube_link>
@@ -35,6 +38,9 @@ The file will be found inside the audio folder.
 
 ###### **To Download Video Only**
 
+When you are runnning for the first time, create an *video_only* folder in the root directory.  
+This is where all your video_only files will be downloaded.  
+
 Run the following command on the terminal
 
     python video_download <name_file.mp4> <youtube_link>
@@ -45,6 +51,9 @@ Run the following command on the terminal
 The file will be found inside the video_only folder.  
 
 ###### **To Download Video**
+
+When you are runnning for the first time, create an *video* folder in the root directory.  
+This is where all your video files will be downloaded.  
 
 Run the following command on the terminal
 
